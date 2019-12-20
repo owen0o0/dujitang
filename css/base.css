@@ -1,0 +1,62 @@
+
+html,body,div,span,applet,object,a,q{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+body{height:100%;position:fixed;width:100%}
+a{color:#ddd;text-decoration:none}
+a:hover{color:#fff;text-decoration:none}
+.index{position:relative;height:100%;font-family:Alibaba Sans,SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;background:#FF512F;background:-webkit-linear-gradient(to right,#DD2476,#FF512F);background:linear-gradient(to right,#DD2476,#FF512F)}
+.header .logo{position:absolute;z-index:5;margin-top:35px;margin-left:50px;width:150px}
+.panel-main{display:table;width:100%;height:100%}
+.panel-inverted{font-weight:100;text-align:center;color:#FFF;text-shadow:0px 2px 10px rgba(58,23,23,0.4)}
+.panel-main__inner{display:table-cell;vertical-align:middle;position:relative;z-index:2;padding:0 40px}
+.panel-main span{color:#fff;font-size:50px;font-family:"fzzj-mmxjjw" !important;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:0.2px;-moz-osx-font-smoothing:grayscale;transition:all .2s linear;line-height:80px}
+.panel-main .sign{text-align:right;display:inherit}
+.panel-main p{padding:0 10px;text-align:left;max-width:1520px;margin:0 auto;background:url(../img/comments-bg@x2.png)}
+.panel-main .sspan{display:inline;padding-bottom:8px;border-bottom:1px solid #fff}
+.panel-main .iowen{position:relative;color:#fff;right:0px;transition:.3s}
+.panel-main .iowen:hover{right:-5px}
+.panel-main .check{position:relative;display:inline-block;border-radius:40px;padding:16px 50px;text-align:center;border:1px solid #fff;color:#fff;margin:80px auto 50px;font-size:16px;letter-spacing:3px;font-weight:600;text-shadow:none;transition:.3s}
+.panel-main .check:hover{background:#fff;color:#c84031}
+.footer{position:absolute;width:100%;color:#fff;font-size:16px;bottom:0;z-index:5;text-align:center}
+.footer #busuanzi_value_site_pv{font-weight:bold;margin:0 10px}
+.footer .fo{color:#ddd;font-size:12px}
+.footer #busuanzi_value_site_pv{font-weight:bold;margin:0 10px}
+.none{display:none}
+.navigation__item a{padding:10px 20px;border:1px solid #DF9C81;border-radius:20px;font-size:.9em;font-weight:bold;letter-spacing:1px;text-shadow:none;color:#DF9C81;-webkit-font-smoothing:antialiased}
+.navigation__item a:hover{color:#d06c44;border-color:#d06c44}
+nav{display:inline-block;position:relative}
+.navigation{font-size:20px;padding:0;list-style-type:none}
+.navigation__item{display:inline-block}
+.navigation__item a{display:block;position:relative;border-color:#FFF;color:#FFF;transition:all .3s}
+.navigation__item a:hover{color:#FFF;background:#FF7F00;border-color:#FF7F00;transition:all .3s}
+.navigation--social a{border:0px;padding:6px 8px 6px 9px}
+.navigation--social a .label{display:none}
+.navigation--social a .icon{display:block;font-size:1.7em}
+.navigation--social #busuanzi_value_site_uv,.navigation--social #busuanzi_value_page_pv{position:absolute;left:18px;top:3px;padding:1px 5px;border-radius:15px;background:#444;color:#fff;font-size:10px;line-height:10px}
+.tooltip{position:relative;display:inline-block}
+.tooltip .tooltiptext{visibility:hidden;width:80px;font-size:12px;background-color:black;color:#fff;text-align:center;border-radius:6px;padding:5px 0;position:absolute;z-index:1;bottom:120%;left:50%;margin-left:-40px;opacity:0;transition:opacity .3s}
+.tooltip .tooltiptext::after{content:"";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:black transparent transparent transparent}
+.tooltip:hover .tooltiptext{opacity:1;visibility:visible}
+@media all and (max-width:768px){.header .logo{margin-top:30px;margin-left:10px}
+.panel-main span{font-size:30px;line-height:45px}
+.panel-main .check{padding:10px 35px;margin:50px auto 30px;font-size:14px}
+.panel-main__inner{padding:0 5px}
+.panel-main p{background:url(../img/comments-bg.png)}
+}
+.bubbly-button{font-family:'Helvetica','Arial',sans-serif;display:inline-block;font-size:1em;padding:1em 2em;margin-top:100px;margin-bottom:60px;-webkit-appearance:none;appearance:none;color:#fff;border-radius:4px;border:none;cursor:pointer;position:relative;transition:transform ease-in 0.1s,box-shadow ease-in 0.25s;box-shadow:0 2px 25px rgba(255,0,130,0.5)}
+.bubbly-button:focus{outline:0}
+.bubbly-button:before,.bubbly-button:after{position:absolute;content:'';display:block;width:140%;height:100%;left:-20%;z-index:-1000;transition:all ease-in-out 0.5s;background-repeat:no-repeat}
+.bubbly-button:before{display:none;top:-75%;background-image:radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,transparent 20%,#fff 20%,transparent 30%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,transparent 10%,#fff 15%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%);background-size:10% 10%,20% 20%,15% 15%,20% 20%,18% 18%,10% 10%,15% 15%,10% 10%,18% 18%}
+.bubbly-button:after{display:none;bottom:-75%;background-image:radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,transparent 10%,#fff 15%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%),radial-gradient(circle,#fff 20%,transparent 20%);background-size:15% 15%,20% 20%,18% 18%,20% 20%,15% 15%,10% 10%,20% 20%}
+.bubbly-button:active{transform:scale(0.9);background-color:#fff;box-shadow:0 2px 25px rgba(255,0,130,0.2)}
+.bubbly-button.animate:before{display:block;animation:topBubbles ease-in-out 0.75s forwards}
+.bubbly-button.animate:after{display:block;animation:bottomBubbles ease-in-out 0.75s forwards}
+@keyframes topBubbles{
+0%{background-position:5% 90%,10% 90%,10% 90%,15% 90%,25% 90%,25% 90%,40% 90%,55% 90%,70% 90%}
+50%{background-position:0% 80%,0% 20%,10% 40%,20% 0%,30% 30%,22% 50%,50% 50%,65% 20%,90% 30%}
+100%{background-position:0% 70%,0% 10%,10% 30%,20% -10%,30% 20%,22% 40%,50% 40%,65% 10%,90% 20%;background-size:0% 0%,0% 0%,0% 0%,0% 0%,0% 0%,0% 0%}
+}
+@keyframes bottomBubbles{
+0%{background-position:10% -10%,30% 10%,55% -10%,70% -10%,85% -10%,70% -10%,70% 0%}
+50%{background-position:0% 80%,20% 80%,45% 60%,60% 100%,75% 70%,95% 60%,105% 0%}
+100%{background-position:0% 90%,20% 90%,45% 70%,60% 110%,75% 80%,95% 70%,110% 10%;background-size:0% 0%,0% 0%,0% 0%,0% 0%,0% 0%,0% 0%}
+}
