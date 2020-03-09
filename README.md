@@ -13,3 +13,9 @@
 
 ### 预览
 <a href="https://www.iowen.cn/jitang/" target="_blank">预览--></a>
+
+### 网页调用方法
+```
+<script type="text/javascript" src="https://你的域名/api/?format=js&charset=utf-8"></script>
+<div id="hitokoto"><script>hitokoto()</script></div>
+```
